@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/api-fetch.git'
+                git 'https://github.com/renga511/jenapi.git'
             }
         }
         stage('Build HTML') {
